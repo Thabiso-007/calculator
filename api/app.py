@@ -23,9 +23,7 @@ def helloWorld():
 
 @app.route("/wine", methods=["GET"])
 def predWine():
-
     if request.method == 'GET':
-
         a = float(request.args.get('alcohol'))
         b = float(request.args.get('malic_acid'))
         c = float(request.args.get('ash'))

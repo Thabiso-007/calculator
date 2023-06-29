@@ -6,7 +6,7 @@
                     <table class="table table-bordered mt-5 container">
                         <tbody class="table-group-divider mt-5">
                             <tr class="output">
-                                <td class="p-4" colspan="4">
+                                <td class="number-container" colspan="4">
                                     {{ output }}
                                 </td>
                             </tr>
@@ -213,5 +213,11 @@
 
 .cursor-pointer {
     cursor: pointer;
+}
+
+.number-container {
+    width: 100%;
+    height: 80px;
+    padding: 10px;
 }
 </style>

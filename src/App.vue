@@ -1,8 +1,5 @@
 <template>
   <div id="app">
-    <div class="container_row mb-5">
-      <Header msg="Basic Calculators"/>
-    </div>
     <div class="container_row mt-5">
       <Calculator />
     </div>
@@ -10,13 +7,11 @@
 </template>
 
 <script>
-import Header from './components/Header.vue'
 import Calculator from './components/Calculator.vue'
 
 export default {
   name: 'App',
   components: {
-    Header,
     Calculator
   }
 }
@@ -29,10 +24,11 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #ffffff;
-  margin-top: 0px;
+  margin: 0px;
+  padding-top: 200px;
   background-color: rgba(0, 0, 0, 0.7);
   width: 100%;
-  height: 100vh;
+  height: 97.5vh;
 }
 .container_row{
   display: grid;
